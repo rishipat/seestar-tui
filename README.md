@@ -13,10 +13,6 @@ Seestar TUI is a Python terminal app for finding astronomical targets, checking 
 
 *The TUI tracking GP And. The red rectangle marks the telescope’s pointing.*
 
-![Native Seestar app recording a GP And light curve beside the TUI](docs/images/gp-and-photometry.png)
-
-*The TUI displays the pointing while the native Seestar app records photometry.*
-
 ## Install
 
 For a live connection, enable **Alpaca** in the connected Seestar app under **Me → Device Management → Assistive Features → Alpaca**.
