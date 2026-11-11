@@ -52,3 +52,7 @@ The faint inner rings mark 30° and 60° elevation, and the spokes mark every 45
 Catalogue rows show the SIMBAD main ID, object type and J2000 coordinates. The selected target also shows the matched alias. GoTo reads the driver's frame and site, uses Astropy to convert J2000 to topocentric apparent RA/Dec when required, checks altitude, then sends an asynchronous slew. The pointing calculation omits atmospheric refraction and proper motion.
 
 Stop + Home operates on activity Alpaca can see. Stop native-app photometry, stacking or planned shooting in the app before handing over control. FindHome uses the driver's home operation and does not request Park. A parked scope must be deliberately unparked before GoTo or FindHome.
+
+## License
+
+The Seestar TUI source code is available under the [MIT License](LICENSE). Screenshots are excluded from this license.
