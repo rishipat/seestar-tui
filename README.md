@@ -2,6 +2,18 @@
 
 Python terminal dashboard for a Seestar on the same LAN. Enable **Alpaca** in the connected Seestar app under **Me → Device Management → Assistive Features → Alpaca**.
 
+## Screenshots
+
+![Seestar TUI tracking GP And with the SIMBAD result and telescope pointing marked on the sky chart](docs/images/gp-and-dashboard.png)
+
+*The TUI tracking GP And. The red rectangle marks the telescope’s pointing.*
+
+![Native Seestar app recording a GP And light curve beside the TUI](docs/images/gp-and-photometry.png)
+
+*The TUI displays the pointing while the native Seestar app records photometry.*
+
+## Install
+
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) and use a terminal at least 75 columns by 25 rows. Clone the repository and install the locked dependencies with these commands.
 
 ```sh
