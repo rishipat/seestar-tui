@@ -1,6 +1,11 @@
 # Seestar TUI
 
-Python terminal dashboard for a Seestar on the same LAN. Enable **Alpaca** in the connected Seestar app under **Me → Device Management → Assistive Features → Alpaca**.
+Seestar TUI is a Python terminal app for finding astronomical targets, checking where they are in your local sky, and pointing a Seestar telescope at them over your local network.
+
+- **Connect and monitor.** Discover Seestar telescopes via ASCOM Alpaca and see live pointing, tracking, and filter status.
+- **Find and preview targets.** Search Harvard CfA’s SIMBAD catalogue by name or identifier, including variable stars such as GP And. Compare the selected target with the telescope’s current pointing on a live sky chart.
+- **Control the telescope.** Enable control mode to slew to a target, change filters, or stop Alpaca activity and return the mount home.
+- **Choose how to observe.** Use read-only mode to monitor the scope alongside the native Seestar app during photometry, or try the demo without a telescope.
 
 ## Screenshots
 
@@ -13,6 +18,8 @@ Python terminal dashboard for a Seestar on the same LAN. Enable **Alpaca** in th
 *The TUI displays the pointing while the native Seestar app records photometry.*
 
 ## Install
+
+For a live connection, enable **Alpaca** in the connected Seestar app under **Me → Device Management → Assistive Features → Alpaca**.
 
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) and use a terminal at least 75 columns by 25 rows. Clone the repository and install the locked dependencies with these commands.
 
